@@ -381,6 +381,7 @@
                 </li>
                 </ul>
             </div>
+            <!-- Subscribe -->
             <form>
                 <p class="text-connect">Подпишитесь на рассылку</p>
                 <label class="form-area-footer">
@@ -388,7 +389,7 @@
                     <svg class="form-icon">
                         <use href="./images/sprite.svg#iconname"></use>
                     </svg>
-                    <span class="form-title">Имя</span>
+                    <span class="form-title"></span>
                 </label>
                 <button type="submit" class="button-footer">Подписаться</button>
             </form>
@@ -426,13 +427,20 @@
                     <label class="form-area"> <span class="form-title">Комментарии</span> 
                     <textarea name="comment" placeholder="Введите текст"></textarea>
                     </label>
+                    <div class="agreement-position">
                     <label class="form-area-agreement">
-                        <svg class="agreement-icon">
-                            <use href="./images/sprite.svg#iconcheck"></use>
-                        </svg>
-                        <input type="checkbox" class="agreement">
-                        Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> 
+                            <span>
+                                <input type="checkbox" class="agreement">Соглашаюсь с рассылкой и принимаю
+                                
+                                <a href="">Условия договора</a> 
+                            
+                                <svg class="agreement-icon">
+                                    <use href="./images/sprite.svg#iconcheck"></use>
+                                </svg>
+                            </span>
+                            
                     </label>
+                    </div>
                     <button type="submit" class="modal-button">Отправить</button>
                 </form>
                 
