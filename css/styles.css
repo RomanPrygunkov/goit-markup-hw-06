@@ -373,7 +373,7 @@ h1 {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border-color var(--time) var(--cubic);
-
+    cursor: pointer;
 }
 
 .form-input:focus {
@@ -407,6 +407,7 @@ h1 {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border-color var(--time) var(--cubic);
+    cursor: pointer;
 }
 
 .modal-form textarea:focus {
@@ -960,13 +961,12 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     color: #FFFFFF;
 }
 
-footer form p {
+.footer-form {
     margin-left: 93px;
 }
-
 .form-area-footer {
     display: inline-flex;
-    margin-left: 93px;
+    
     margin-top: 20px;
 }
 .form-input-footer {
@@ -1024,6 +1024,7 @@ footer form p {
     height: 24px;
     background-image: url("../images/iconplane.svg");
     background-size: contain;
+    background-repeat: no-repeat;
 }    
 
 

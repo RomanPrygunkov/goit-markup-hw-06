@@ -14,7 +14,7 @@
 <header class="header-border">
     <div class="container header-formating">
         <nav class="header-formating">
-            <a href="./index.html" class="logo">Web<span class="logohead-second-color">Studio</span></a>
+            <a href="./index.html" class="logo" aria-label="Логотип">Web<span class="logohead-second-color">Studio</span></a>
             <ul class="header-nav">
                 <li class="header-nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
                 <li class="header-nav-item"><a href="./portfolio.html" class="nav-link nav-link-color">Портфолио</a></li>
@@ -24,16 +24,16 @@
         <ul class="head-contacts">
             <li class="item">
         
-                <a href="mailto:info@devstudio.com" class="head-contacts-link">
-                    <svg class="contact-icon" width="16px" height="12px">
+                <a href="mailto:info@devstudio.com" class="head-contacts-link" aria-label="Почта">
+                    <svg class="contact-icon" width="16px" height="12px" aria-label="Иконка конверта">
                         <use href="./images/sprite.svg#iconmail"></use>
                     </svg>
                     info@devstudio.com
                 </a>
             </li>
             <li class="item">
-                <a href="tel:+380961111111" class="head-contacts-link">
-                    <svg class="contact-icon" width="10px" height="16px">
+                <a href="tel:+380961111111" class="head-contacts-link" aria-label="Контактный телефон">
+                    <svg class="contact-icon" width="10px" height="16px" aria-label="Иконка телефона">
                         <use href="./images/sprite.svg#iconsmartphone"></use>
                     </svg>
                     +38 096 111 11 11
@@ -187,50 +187,50 @@
     
         <div class="container footer-formating">
             <address class="footer-text-normal">
-                <a href="./index.html" class="logo logo-footer">Web<span class="logofooter-second-color">Studio</span></a>
+                <a href="./index.html" class="logo logo-footer" aria-label="Логотип">Web<span class="logofooter-second-color">Studio</span></a>
                 <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="mailto:info@example.com" class="footer-contacts-link">info@example.com</a>
-                <a href="tel:+380991111111" class="footer-contacts-link">+38 099 111 11 11</a>
+                <a href="mailto:info@example.com" class="footer-contacts-link" aria-label="Ссылка на почту">info@example.com</a>
+                <a href="tel:+380991111111" class="footer-contacts-link" aria-label="Контактный телефон">+38 099 111 11 11</a>
             </address>
         
             <div class="footer-soc-container">
                 <p class="text-connect">присоединяйтесь</p>
                 <ul class="footer-soc-list">
                     <li>
-                        <a href="" class="social-links-footer">
-                            <svg class="social-icon-footer">
+                        <a href="" class="social-links-footer" aria-label="Ссылка на инстаграмм">
+                            <svg class="social-icon-footer" aria-label="Иконка инстаграмм">
                                 <use href="./images/sprite.svg#iconinst"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="social-links-footer">
-                            <svg class="social-icon-footer">
+                        <a href="" class="social-links-footer" aria-label="Ссылка на твиттер">
+                            <svg class="social-icon-footer" aria-label="Иконка твиттера">
                                 <use href="./images/sprite.svg#icontwitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="social-links-footer">
-                            <svg class="social-icon-footer">
+                        <a href="" class="social-links-footer" aria-label="Ссылка на фэйсбук">
+                            <svg class="social-icon-footer" aria-label="Иконка фэйсбук">
                                 <use href="./images/sprite.svg#iconfacebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="social-links-footer">
-                            <svg class="social-icon-footer">
+                        <a href="" class="social-links-footer" aria-label="Ссылка на линкедин">
+                            <svg class="social-icon-footer" aria-label="Иконка линкедин">
                                 <use href="./images/sprite.svg#iconlinkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
             </div>
-            <form>
+            <!-- Subscribe -->
+            <form class="footer-form">
                 <p class="text-connect">Подпишитесь на рассылку</p>
                 <label class="form-area-footer">
                     <input type="text" name="email" class="form-input-footer" placeholder="E-mail">
-                    <span class="form-title"></span>
                 </label>
                 <button type="submit" class="button-footer">Подписаться</button>
             </form>
